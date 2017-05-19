@@ -1,8 +1,8 @@
 About
 -----
 
-This example shows a simple Google Map SDK use, on Android, with the 
-new Kotlin language.
+This example demonstrates how to integrate the Google Map SDK in an 
+Android application written in Kotlin.
 
 Install
 -------
