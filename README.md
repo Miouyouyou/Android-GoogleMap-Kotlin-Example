@@ -4,6 +4,13 @@ About
 This example demonstrates how to integrate the Google Map SDK in an 
 Android application written in Kotlin.
 
+Add your Google Map API Key
+---------------------------
+
+* Edit the file [app/src/main/res/values/api.xml](./app/src/main/res/values/)  
+  and replace YourGoogleAPIKeyHere by your Google Map API key, that you  
+  generated through the Google Developer console.
+
 Install
 -------
 
