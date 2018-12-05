@@ -11,6 +11,9 @@ class MainActivity : AppCompatActivity()  {
 
         val mapFragment =
                 supportFragmentManager.findFragmentById(R.id.map) as MyMapFragment
+        /*mapFragment.initial_latitude = -10.0
+        mapFragment.initial_longitude = 115.0
+        mapFragment.initial_marker = "Inishol mawker"*/
         mapFragment.getMapAsync(mapFragment)
         System.err.println("OnCreate end")
     }

@@ -14,9 +14,9 @@ import com.google.android.gms.maps.model.MarkerOptions
 class MyMapFragment : SupportMapFragment(), OnMapReadyCallback {
     private lateinit var mMap: GoogleMap
 
-    private var initial_latitude  = -34.0
-    private var initial_longitude = 151.0
-    private var initial_marker    = "Seed nay"
+    var initial_latitude  = -34.0
+    var initial_longitude = 151.0
+    var initial_marker    = "Seed nay"
     override fun onInflate(context: Context?, attrs: AttributeSet?, savedInstanceState: Bundle?) {
         super.onInflate(context, attrs, savedInstanceState)
         attrs ?: return
